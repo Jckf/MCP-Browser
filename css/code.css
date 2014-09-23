@@ -1,0 +1,36 @@
+.source table {
+	table-layout: fixed;
+}
+
+.code {
+	background: transparent !important;
+}
+.code > td {
+	width: 50%;
+	border: none !important;
+	padding-left: 0 !important;
+}
+.code > td > div {
+	width: 100%;
+	overflow: auto;
+	border: 1px solid #333333;
+	background: white;
+}
+
+.gist-it-gist {
+	
+}
+.gist-file {
+	border: none !important;
+	margin: 0 !important;
+}
+.gist-data {
+	border: none !important;
+	background: transparent !important;
+}
+.prettyprint {
+	
+}
+.prettyprinted {
+	
+}

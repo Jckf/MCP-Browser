@@ -1,0 +1,94 @@
+body {
+	font: 12px verdana;
+	background: url(../img/noise.jpg);
+}
+h1, h2 {
+	text-align: center;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+table {
+	width: 100%;
+	text-align: left;
+}
+td {
+	vertical-align: top;
+}
+select {
+	border: 0;
+	width: 100%;
+}
+
+.centerwrap {
+	text-align: center;
+}
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+.table thead {
+	background: gray;
+	color: white;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.table thead td {
+	padding: 0.3em;
+}
+.table thead td[colspan] {
+	text-align: center;
+	background: #555555;
+}
+.table thead a {
+	font-size: 0.7em;
+	font-weight: normal;
+}
+.table td {
+	border: 1px solid black;
+	padding: 0 0.2em;
+}
+.table tbody tr {
+	background: white;
+}
+.listing tbody tr:hover {
+	background: #ffffcc;
+}
+.tiny {
+	width: auto;
+	max-width: 300px;
+}
+
+.classes tbody td {
+	padding: 0;
+}
+.fields {
+	width: 33%;
+}
+
+.java_ret {
+	font-style: italic;
+	color: #555555;
+}
+.java_method {
+	color: blue;
+	font-weight: bold;
+}
+.java_method_gen {
+	color: purple;
+	font-weight: bold;
+}
+.java_args {
+	
+}
+.java_arg {
+	color: green;
+}
+
+#footer {
+	padding: 2em;
+	text-align: center;
+	font-size: 0.8em;
+	color: #555555;
+}
